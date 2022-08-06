@@ -7,7 +7,7 @@ let weightStatus;
 
 function calc_bmi(height, weight) {
 	bodymassindex = weight / (height)**2;
-	var bmi = bodymassindex.toFixed(4);
+	var bmi = bodymassindex.toFixed(1);
 	//return bodymassindex;
 	console.log(bodymassindex);
 	console.log(`Your BMI is:\n${bmi}`);
@@ -39,12 +39,6 @@ function getBMIStatus(bodymassindex) {
 	}
 }
 
-getBMIStatus(-12);
-console.log(Math.random());
-//parseInt function takes a string and converts it to an integer
-//radix states the number base of the string being passed
-parseInt("1001", 2);
-//Ternary operator is a one line if-else statement
 
 
 
